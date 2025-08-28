@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Installation</title>
+    <style>
+        .merah {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Installation | Pemasangan Laravel</h1>
+        <h2>Syarat Menginstall Laravel</h2>
+            <p>Sebelum kamu menginstall Laravel ada beberapa syarat yang dibutuhkan:</p>
+            <ol>
+                <li><span class="merah">PHP</span> sudah terinstall</li>
+                <li><span class="merah">Composer</span> sudah terinstall</li>
+                <li><span class="merah">Laravel Installer</span> sudah terinstall</li>
+                <li><span class="merah">Node.js dan NPM</span> sudah terinstall</li>
+            </ol>
+            <p>Disini ga ada tulisan gimana caranya install PHP, Composer, Node.js ataupun NPM. Kamu bisa cari aja di Google dengan kata kunci cara install PHP, cara install composer dan lain-lain udah banyak tutorialnya.</p>
+            <p>Oke, saya asumsikan kamu udah menginstall syarat-syarat yang di butuhkan diatas ya..</p>
+
+            <p>Kalau PHP dan Composer sudah terinstall, sekarang kita install Laravel Installer melalui composer:</p>
+            <pre>
+                <code>
+                    composer global require laravel/installer
+                </code>
+            </pre>
+
+            <p>Oke sekarang PHP✅, Composer✅ dan Laravel Installer✅ sudah terinstall.</p>
+            <p>Sekarang kita buat aplikasi Laravel baru dengan perintah:</p>
+            <pre>
+                <code>
+                    laravel new example-app
+                </code>
+            </pre>
+
+            <p>Ganti example-app dengan nama aplikasi yang ingin kamu buat misalnya aplikasi-perpus atau aplikasi-karyawan.</p>
+            <p>Setelah mengetikkan perintah diatas, Laravel Installer akan minta kamu untuk memilih framework untuk testing, database yang digunakan dan starter kita yang kamu inginkan. Pilih sesuai kebutuhan kamu.</p>
+
+            <p>Oke sekarang kita masuke ke direktori laravel kita:</p>
+            <pre>
+                cd example-app
+            </pre>
+            <p>Lalu jalankan:</p>
+            <pre>
+                <code>npm install && npm run dev</code>
+            </pre>
+
+</body>
+</html>
