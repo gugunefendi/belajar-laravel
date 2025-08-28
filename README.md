@@ -1,1 +1,2 @@
-# Belajar Laravel
+# Belajar Laravel 12
+## Installation
